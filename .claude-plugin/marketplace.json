@@ -1,0 +1,36 @@
+{
+  "name": "kktu",
+  "owner": {
+    "name": "kktu",
+    "url": "https://github.com/kktu6507"
+  },
+  "metadata": {
+    "description": "kktu's Claude Code plugin marketplace."
+  },
+  "plugins": [
+    {
+      "name": "ctide",
+      "displayName": "Cressetide",
+      "source": {
+        "source": "git-subdir",
+        "url": "kktu6507/cressetide",
+        "path": "cressetide"
+      },
+      "description": "Cressetide — evidence-gated engineering loops for AI-made changes.",
+      "category": "development",
+      "defaultEnabled": false
+    },
+    {
+      "name": "udflow",
+      "displayName": "Universal Dev Flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "kktu6507/universal-dev-flow-plugin",
+        "path": "udflow"
+      },
+      "description": "Universal Dev Flow — risk-proportional multi-agent engineering workflow.",
+      "category": "development",
+      "defaultEnabled": false
+    }
+  ]
+}
